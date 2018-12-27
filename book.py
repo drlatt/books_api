@@ -24,7 +24,7 @@ class Book:
             if book["Title"] == title:
                 index = idx
                 found = True
-                del self.books[idx]
+                del self.books[index]
         print("books: {0}".format(json.dumps(self.books)))
         return found
 
